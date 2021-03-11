@@ -1,0 +1,25 @@
+syntax = "proto3";
+package com.rams.proto;
+
+option java_package = "com.rams.data";
+ import "google/api/annotations.proto";
+service RamService {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {
+
+     option (google.api.http) = {
+       post: "/v1/example/echo"
+       body: "*"
+     };
+  }
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string re = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string res =1;
+}

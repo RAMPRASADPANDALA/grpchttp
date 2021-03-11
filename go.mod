@@ -1,4 +1,4 @@
-module github.factset.com/ramprasad.pandala/grpchttp
+module github.factset.com/rpandala/grpchttp
 
 go 1.16
 

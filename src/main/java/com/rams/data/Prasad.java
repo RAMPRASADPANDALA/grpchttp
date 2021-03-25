@@ -1191,7 +1191,8 @@ public final class Prasad {
       "\003res\030\001 \001(\t2o\n\nRamService\022a\n\010SayHello\022\034.c" +
       "om.rams.proto.HelloRequest\032\032.com.rams.pr" +
       "oto.HelloReply\"\033\202\323\344\223\002\025\"\020/v1/example/echo" +
-      ":\001*B\017\n\rcom.rams.datab\006proto3"
+      ":\001*B\'\n\rcom.rams.dataZ\026gen/go/rams/servic" +
+      "e/v1b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

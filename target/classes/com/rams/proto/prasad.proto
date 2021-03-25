@@ -3,6 +3,7 @@ package com.rams.proto;
 
 option java_package = "com.rams.data";
  import "google/api/annotations.proto";
+option go_package = "gen/go/rams/service/v1";
 service RamService {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (HelloReply) {
